@@ -5,26 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 2</title>
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-DvPDDfy5.css">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-COOgR3bH.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
-    <nav class="nav">
+    <div>
       <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/vanilla-app-template/assets/sprite-E8vg0sBb.svg#logo"></use>
+        <svg class="nav-logo-icon" width="123" height="16">
+          <use xlink:href="../img/sprite.svg#icon-logo"></use>
         </svg>
       </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link active" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
+      <a>
+        <svg width:="16" height="16"> 
+          <use xlink:href="../img/sprite.svg#icon-camera"></use>
+        </svg> 
+      </a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" hidden />
+      <label for="menu-toggle" class="menu-icon-label" aria-label="Open menu">
+        <svg class="menu-icon" width="16" height="16">
+          <use xlink:href="../img/sprite.svg#icon-nav"></use>
+        </svg>
+      </label>
+      <nav class="mobile-menu">
+        <label for="menu-toggle" class="close-btn" aria-label="Close menu"
+          ><svg width="16" height="16">
+            <use xlink:href="../img/sprite.svg#icon-close"></use>
+          </svg>
+        </label>
+        <ul class="page-nav">
+          <li><a href="#about" class="link">ABOUT US</a></li>
+          <li><a href="#courses" class="link">OUR COURSES</a></li>
+          <li><a href="#mentors" class="link">OUR MENTORS</a></li>
+          <li><a href="#reviews" class="link">REVIEWS</a></li>
+          <li><a href="#contacts" class="link">CONTACTS</a></li>
+        </ul>
+      </nav>
+
+      <nav class="desktop-menu">
+        <ul class="page-nav">
+          <li><a href="#about" class="link">ABOUT US</a></li>
+          <li><a href="#courses" class="link">OUR COURSES</a></li>
+          <li><a href="#mentors" class="link">OUR MENTORS</a></li>
+          <li><a href="#reviews" class="link">REVIEWS</a></li>
+          <li><a href="#contacts" class="link">CONTACTS</a></li>
+        </ul>
+      </nav>
+    </div>
+    <input class="button" type="button" value="Sign Up" />
   </div>
 </header>
 
@@ -34,12 +62,12 @@
         <h1 class="main-title">
           <span class="main-title-gradient">Welcome</span> to page 2
         </h1>
-        <a class="back-link" href="./index.html">Go back</a>
+        <!-- <a class="back-link" href="./index.html">Go back</a> -->
 
       </div>
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
   <div class="container">
     <p class="footer-desc">
       Made with ✨ by
@@ -53,7 +81,7 @@
       </a>
     </p>
   </div>
-</footer>
+</footer> -->
 
   </body>
 </html>
