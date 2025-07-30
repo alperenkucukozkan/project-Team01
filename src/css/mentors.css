@@ -1,0 +1,128 @@
+
+/* ---------- BODY & GLOBAL STYLES ---------- */
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 80px;
+  background-color: #1a1a1a;
+  font-family: "DM Sans", sans-serif;
+  color: #fff;
+  scroll-behavior: smooth;
+  opacity: 1;
+}
+
+/* ---------- OUR MENTORS ---------- */
+#mentors {
+  padding: 60px 20px;
+}
+
+.section-our-mentors {
+  font-family: "DM Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-our {
+  color: #ffffff;
+}
+
+.section-mentors {
+  color: #bea69e;
+}
+
+.mentors-grid {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 24px;
+  text-align: center;
+  padding: 0;
+}
+
+.mentor-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.mentor-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.mentor-card p {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+/* ---------- TABLET STYLES ---------- */
+@media (min-width: 768px) {
+  body {
+    max-width: 768px;
+    height: 5511px;
+  }
+
+  .section-title,
+  .section-our-mentors {
+    font-size: 42px;
+    text-align: left;
+    margin-left: 40px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .about-text {
+    text-align: left;
+  }
+
+  .about-paragraphs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .about-paragraphs p {
+    flex: 1 1 280px;
+    max-width: 600px;
+  }
+
+  .mentors-grid {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 32px;
+    padding: 0 20px;
+  }
+}
+
+/* ---------- DESKTOP STYLES ---------- */
+@media (min-width: 1024px) {
+  body {
+    max-width: 1440px;
+    height: 4391px;
+  }
+
+  .section-title,
+  .section-our-mentors {
+    font-size: 48px;
+    margin-left: 100px;
+  }
+
+  .about-container {
+    gap: 80px;
+    flex-direction: row;
+  }
+
+  .mentors-grid {
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 40px;
+  }
+}

@@ -13,4 +13,6 @@
 /* Sections style */
 @import url('./header.css');
 @import url('./advertisement.css');
+@import url('./about.css');
+@import url('./mentors.css');
 @import url('./footer.css');
