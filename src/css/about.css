@@ -4,7 +4,7 @@ body {
   margin: 0 auto;
   padding-top: 80px;
   background-color: #1a1a1a;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   color: #fff;
   scroll-behavior: smooth;
   opacity: 1;
@@ -16,7 +16,7 @@ body {
 }
 
 .section-title {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: -0.04em;
@@ -113,7 +113,7 @@ body {
   }
 
   .mentors-grid {
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     gap: 32px;
     padding: 0 20px;
   }
@@ -138,7 +138,7 @@ body {
   }
 
   .mentors-grid {
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 1fr);
     gap: 40px;
   }
 }

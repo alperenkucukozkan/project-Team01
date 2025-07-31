@@ -11,7 +11,7 @@ body {
   justify-content: flex-start;
   gap: 12px;
   align-items: center;
-  padding: 16px 20px;
+  padding: 15px 20px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
   box-sizing: border-box;
@@ -27,10 +27,16 @@ body {
   justify-content: center;
   width: 32px;
   height: 32px;
+  fill: red;
   background-color: #1d1d1d;
   border-radius: 50%;
   margin-left: auto;
 }
+.nav-bar .camera-icon:hover svg {
+  fill: #f4f4fd;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .menu-icon {
   width: 32px;
   height: 22px;
@@ -57,7 +63,7 @@ body {
 }
 
 .camera-img {
-  width: 329px;
+  width: 100%;
   height: auto;
   position: fixed;
   object-fit: cover;
@@ -105,8 +111,28 @@ body {
   display: none;
 }
 @media screen and (min-width: 768px) {
+  .header .container {
+    gap: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
   .mobile-menu {
     display: flex;
+    width: 480px;
+  }
+  .mobile-menu ul {
+    padding-top: 232px;
+    padding-left: 64px;
+  }
+  .mobil-menu .page-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 64px;
+    padding-top: 232px;
+    gap: 28px;
+  }
+  .camera-img {
+    padding-top: 114px;
   }
   .desktop-menu {
     display: none;
@@ -119,18 +145,18 @@ body {
   }
   .nav-bar {
     width: 100%;
-    max-width: 504px;
-  }
-  .container {
-    display: flex;
     justify-content: space-between;
   }
+
   .menu-icon {
     width: 40px;
     height: 28px;
   }
 }
 @media screen and (min-width: 1280px) {
+  .container {
+    margin: 20px 100px;
+  }
   .mobile-menu {
     display: none;
   }
@@ -143,5 +169,18 @@ body {
   }
   .button {
     display: flex;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .nav-bar {
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+  }
+  .page-nav {
+    display: flex;
+    align-items: center;
+    gap: 28px;
   }
 }
