@@ -1,5 +1,6 @@
 /* --------- REVIEWS SECTION --------- */
 #reviews {
+  background-color: #000;
   padding: 60px 20px;
   text-align: center;
 }
@@ -42,7 +43,7 @@
   border: 1px solid #1d1d1d;
   border-radius: 20px;
   padding: 20px;
-  background-color: #121212;
+  background-color: #000;
   display: flex;
   justify-content: center;
   flex-direction: column;
