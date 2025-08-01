@@ -116,12 +116,13 @@
   }
 
   .about-image {
-    width: 700px;
+    width: 600px;
     height: 340px; 
     border-radius: 1000px;
     overflow: hidden;
     position: relative;
     display: flex;
+    justify-content: flex-start;
   }
 
   .about-image img {
