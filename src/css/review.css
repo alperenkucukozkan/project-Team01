@@ -109,7 +109,7 @@
   text-align: left;
 }
 /* ---------- TABLET STYLES ---------- */
-@media (max-width: 1024px) {
+@media (min-width: 768px) {
   .section-reviews-title {
     font-size: 48px;
   }
@@ -132,7 +132,7 @@
 }
 
 /* ---------- MOBILE STYLES ---------- */
-@media (max-width: 767px) {
+@media (min-width: 375px) {
   #reviews {
   padding: 60px 0;
   text-align: center;

@@ -86,7 +86,7 @@
 }
 
 /* ---------- TABLET ---------- */
-@media (max-width: 1023px) and (min-width: 768px) {
+@media (min-width: 768px) {
   #mentors {
     padding: 130px 80px;
   }
@@ -107,7 +107,7 @@
 }
 
 /* ---------- MOBİL ---------- */
-@media (max-width: 767px) {
+@media (min-width: 375px) {
   #mentors {
     padding: 130px 40px;
   }

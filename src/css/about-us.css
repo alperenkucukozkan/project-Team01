@@ -92,7 +92,7 @@
 }
 
 /* ---------- TABLET ---------- */
-@media (max-width: 1023px) and (min-width: 768px) {
+@media (min-width: 768px) {
   #about {
     padding: 130px 40px;
     position: relative;
@@ -161,7 +161,7 @@
 }
 
 /* ---------- MOBILE ---------- */
-@media (max-width: 767px) {
+@media (min-width: 375px) {
   #about {
     padding: 60px 16px;
     position: relative;
