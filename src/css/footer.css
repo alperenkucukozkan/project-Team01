@@ -1,21 +1,65 @@
-/* .footer {
-  padding: 20px 0;
+ 
+
+.footer .icon {
+  width: 123px;
+  height: 16px;
+  display: flex;
+ 
+
+
+
+  /*border: #0d5229 solid 1px;*/
 }
-.footer-desc {
-  text-align: center;
+.footer .contact {
+  font-size: 14px;
+  text-align: left;
+  max-width:287px ;
+  width: 100%;
+  height: 46px;
+
+  /*border: 1px solid #0d5229;*/
 }
-.footer-link {
-  position: relative;
+.footer .contact-item .link {
+  font-size: 14px;
 }
-.footer-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
-} */
+
+.footer .more{
+  display: flex;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.footer .more .menu{
+  margin-left: 40px;
+}
+
+.footer .request-input{
+  width: 267px;
+  height: 60px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #fff;
+  font-size: 16px;
+  margin-left: 20px;
+
+}
+
+.footer .request-button{
+  width: 60px;
+  height: 60px;
+  background-color: #1d1d1d;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.footer .privacy{
+  margin-left:20px;
+}
+.footer .copyright{
+  display: flex;
+  margin-top:40px;
+  gap: 72px
+}
