@@ -1,100 +1,109 @@
-/* ---------- DESKTOP ---------- */
+/* ---------- ABOUT US MOBILE FIRST --------- */
 #about {
   background-color: black;
   max-width: 1440px;
   width: 100%;
+  height: 680px;
   margin: 0 auto;
-  padding: 100px 20px;
+  padding: 0 auto;
   box-sizing: border-box;
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 24px;
   color: #fff;
+  overflow-x: hidden;
 }
 
-/* Başlık */
 .section-title {
   position: absolute;
-  top: 10px;
-  left: 100px;
-  font-size: 48px;
-  font-weight: 700;
-  letter-spacing: -0.04em;
-  line-height: 1.2;
+  top: 20px;
+  left: 30px;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -4%;
+  line-height: 32px;
   color: #fff;
   margin: 0;
   z-index: 10;
-  max-width: 90vw;
-  padding: 40px;
+  max-width: none;
+  padding: 0;
+  text-align: left;
 }
+
 .section-about {
   color: #ffffff;
 }
+
 .section-us {
   color: #bea69e;
 }
 
 .about-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 60px;
+  flex-direction: column;
+  align-items: center;   
+  justify-content: center;
+  margin-top: 40px;
+  gap: 24px;
   width: 100%;
+  height: 100%;
   box-sizing: border-box;
 }
 
 .about-image {
-  width: 498px;                       
-  height: 240px;             
+  width: 335px;
+  height: 209px;
   border-radius: 1000px;
   overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  left: 0;
   margin: 0 auto;
   box-sizing: border-box;
 }
 
 .about-image img {
-  width: 100%;               
-  height: 190%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 0;
   display: block;
   position: relative;
-  transform: translateY(65px);
+  margin: 0 auto;
 }
 
-
 .about-text {
-  max-width: 600px;
-  font-size: 14px;
-  line-height: 1.5;
-  text-align: left;
-  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  gap: 16px;
+  text-align: center;
   box-sizing: border-box;
 }
 
 .about-paragraphs {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  
 }
 
 .about-paragraphs p {
+  font-size: 14px;
+  line-height: 1.4;
   margin: 0;
   font-weight: 400;
   letter-spacing: -0.02em;
-  line-height: 1.25;
 }
 
 /* ---------- TABLET ---------- */
 @media (min-width: 768px) {
   #about {
-    padding: 130px 40px;
     position: relative;
   }
 
@@ -141,13 +150,13 @@
     justify-content: center;
     width: 100%;
     max-width: 900px;
-    padding: 0 12px;
     gap: 40px;
     text-align: left;
   }
 
   .about-paragraphs {
     display: flex;
+    flex-direction: row;
     gap: 40px;
     width: 100%;
   }
@@ -160,73 +169,53 @@
   }
 }
 
-/* ---------- MOBILE ---------- */
-@media (min-width: 375px) {
+/* ---------- DESKTOP ---------- */
+@media (min-width: 1280px) {
   #about {
-    padding: 60px 16px;
-    position: relative;
-    gap: 24px;
-    left: -20px;
+    height: 364px;
+    gap: 40px;
   }
 
   .section-title {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    font-size: 20px;
+    top: 10px;
+    left: 100px;
+    font-size: 48px;
     padding: 0;
-    text-align: left;
-    max-width: none;
-    z-index: 10;
+    max-width: 90vw;
   }
 
   .about-container {
-    flex-direction: column;
-    align-items: center;   
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
   }
 
   .about-image {
-    width: 335px;
-    height: 209px;
-    left: -10px;
-    border-radius: 1000px;
-    overflow: hidden;
-    position: relative;
-    display: flex;
+    width: 498px;
+    height: 240px;
     justify-content: center;
-    align-items: center;
   }
 
   .about-image img {
     width: 100%;
-    height: 180%;
-    object-fit: cover;
-    display: block;
-    border-radius: 0;
-    margin: 0 auto;
+    height: auto;
+    transform: translateY(65px);
   }
 
   .about-text {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 100%;
-    padding: 0 12px;
-    gap: 16px;
-    text-align: center;
+    max-width: 600px;
+    text-align: left;
+    left: 70px;
   }
 
   .about-paragraphs {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 40px;
   }
 
   .about-paragraphs p {
-    font-size: 14px;
-    line-height: 1.4;
-    margin: 0;
+    line-height: 1.25;
   }
 }
