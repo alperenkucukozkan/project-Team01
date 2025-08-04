@@ -1,24 +1,7 @@
-/* ---------- ABOUT US MOBILE FIRST --------- */
 #about {
-  background-color: black;
-  max-width: 1440px;
-  width: 100%;
-  height: 680px;
-  margin: 0 auto;
-  padding: 0 auto;
-  box-sizing: border-box;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  color: #fff;
-  overflow-x: hidden;
+  margin-top: 80px;
 }
-
 .section-title {
-  position: absolute;
-  top: 20px;
-  left: 30px;
   font-size: 28px;
   font-weight: 500;
   letter-spacing: -4%;
@@ -42,7 +25,7 @@
 .about-container {
   display: flex;
   flex-direction: column;
-  align-items: center;   
+  align-items: center;
   justify-content: center;
   margin-top: 40px;
   gap: 24px;
@@ -90,7 +73,6 @@
   flex-direction: column;
   gap: 24px;
   width: 100%;
-  
 }
 
 .about-paragraphs p {
@@ -99,18 +81,16 @@
   margin: 0;
   font-weight: 400;
   letter-spacing: -0.02em;
+  color: #fff;
+  text-align: left;
 }
 
-/* ---------- TABLET ---------- */
 @media (min-width: 768px) {
   #about {
-    position: relative;
+    margin-top: 100px;
   }
 
   .section-title {
-    position: absolute;
-    top: 40px;
-    left: 20px;
     font-size: 42px;
     padding: 0;
     text-align: left;
@@ -119,19 +99,13 @@
   }
 
   .about-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 40px;
   }
 
   .about-image {
     width: 600px;
-    height: 340px; 
-    border-radius: 1000px;
-    overflow: hidden;
-    position: relative;
-    display: flex;
+    height: 340px;
+
     justify-content: flex-start;
   }
 
@@ -174,11 +148,10 @@
   #about {
     height: 364px;
     gap: 40px;
+    margin-top: 150px;
   }
 
   .section-title {
-    top: 10px;
-    left: 100px;
     font-size: 48px;
     padding: 0;
     max-width: 90vw;
@@ -189,6 +162,7 @@
     justify-content: space-between;
     align-items: flex-start;
     gap: 60px;
+    margin-top: 100px;
   }
 
   .about-image {

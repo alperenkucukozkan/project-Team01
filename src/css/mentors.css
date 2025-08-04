@@ -1,4 +1,3 @@
-
 /* ---------- MENTORS MOBİL FİRST ---------- */
 #mentors {
   background-color: #000;
@@ -98,7 +97,6 @@
   .mentors-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
-
   }
 
   .mentor-card img {
