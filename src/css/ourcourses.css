@@ -1,0 +1,267 @@
+
+
+
+.section-ourcourses {
+    width: 335px;
+    height: 1398px;
+    margin: 0 20px;
+    padding: 0;
+    max-width: 100%;
+
+    position: relative;
+}
+
+.container-maintitle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ourcourses {
+    color: rgba(255, 255, 255, 1);
+    font-family: DM Sans, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+}
+
+.courses {
+    color: rgba(190, 166, 158, 1);
+}
+
+.text-ourcourses {
+    color: rgba(255, 255, 255, 1);
+    font-family: DM Sans, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+}
+
+.container-photography {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-basics, .container-landscape, .container-portrait {
+    background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    width: 335px;
+    height: 398px;
+
+    position: absolute;
+    top: 164px;
+}
+
+.container-landscape {
+    top: 582px;
+}
+
+.container-portrait {
+    top: 1000px;
+}
+
+.container-photopraphy-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.number {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: DM Sans, sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+
+    padding-top: 28px;
+    padding-left: 28px;
+}
+
+.button-arrow {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgba(29, 29, 29, 1);
+    width: 32px;
+    height: 32px;
+    border: 0;
+
+    position: absolute;
+    top: 28px;
+    left: 275px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-arrow {
+    width: 20px;
+    height: 20px;
+    
+    
+}
+
+.title-photography {
+    color: rgba(255, 255, 255, 1);
+    font-family: DM Sans, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0;
+
+    padding: 0 28px;
+    margin-top: 38px;
+}
+
+.text-photography {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: dm sans, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    padding: 0 28px 28px 28px;
+    margin-top: 164px;
+}
+
+@media (min-width: 768px) {
+    
+    .section-ourcourses {
+        max-width: 100%;
+        width: 704px;
+        height: 1054px;
+        margin: 0 32px;
+        padding: 0;
+    }
+
+    .container-maintitle {
+        flex-direction: row;
+        gap: 58px;
+
+        margin-bottom: 50px;
+    }
+
+    .ourcourses {
+        font-size: 48px;
+        line-height: 54px;
+        width: 265px;
+    }
+
+    .text-ourcourses {
+        font-size: 16px;
+        line-height: 20px;
+        width: 381px;
+    }
+
+    .container-photography {
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .container-basics, .container-landscape, .container-portrait {
+        position: static;
+    }
+
+    .container-basics .button-arrow {
+        top: 162px;
+        left: 278px;
+    }
+
+    .container-landscape .button-arrow {
+        top: 162px;
+        left: 640px;
+    }
+
+    .container-portrait .button-arrow {
+        top: 580px;
+        left: 278px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .section-ourcourses {
+        max-width: 100%;
+        width: 1081px;
+        height: 582px;
+        margin: 0 99px 0 100px;
+        padding: 0;
+    }
+    .container-maintitle {
+        flex-direction: row;
+        gap: 410px;
+
+        margin-bottom: 50px;
+    }
+    
+    .ourcourses {
+        font-size: 48px;
+        line-height: 54px;
+        width: 265px;
+    }
+    .text-ourcourses {
+        font-size: 16px;
+        line-height: 20px;
+        width: 405px;
+    }
+
+    .container-photography {
+        flex-wrap: nowrap;
+    }
+
+    .container-portrait .button-arrow {
+        top: 162px;
+        left: 995px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .section-ourcourses {
+        max-width: 100%;
+        width: 1240px;
+        height: 562px;
+        margin: 0 100px;
+        padding: 0;
+    }
+
+    .text-ourcourses {
+        width: 565px;
+    }
+
+
+    .container-basics, .container-landscape, .container-portrait {
+        width: 400px;
+        height: 452px;
+    }
+
+    .container-basics .button-arrow {
+        top: 142px;
+        left: 336px;
+    }
+
+    .container-landscape .button-arrow {
+        top: 142px;
+        left: 756px;
+    }
+
+    .container-portrait .button-arrow {
+        top: 142px;
+        left: 1176px;
+    }
+
+    .title-photography {
+        font-size: 28px;
+        line-height: 32px;
+        width: 265px;
+    }
+
+    .text-photography {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 200px;
+    }
+}
