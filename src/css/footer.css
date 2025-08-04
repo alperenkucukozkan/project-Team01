@@ -126,4 +126,14 @@
     gap: 100px;
   }
 
+
+  .footer .request-button{
+    width: 60px;
+    height: 60px;
+  }
+
+  .footer .request-form{
+    width: 292px;
+  }
+
 }
