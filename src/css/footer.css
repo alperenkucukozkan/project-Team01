@@ -54,6 +54,6 @@
 }
 .footer .copyright {
   display: flex;
-  margin-top: 40px;
-  gap: 72px;
+  margin-top:40px;
+  gap: 72px
 }
