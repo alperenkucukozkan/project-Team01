@@ -11,8 +11,7 @@
   padding-left: 20px;
   padding-right: 62px;
   margin-bottom: 100px;
-  margin:0 auto;
-  
+  margin: 0 auto;
 
   /* border: 1px solid red;*/
 }
@@ -33,7 +32,7 @@
   /* border: 1px solid blue;*/
 }
 
-.highlight {
+.hero .highlight {
   color: #bea69e;
   font-style: italic;
   font-weight: 400;
@@ -65,7 +64,7 @@
   position: relative;
   justify-content: space-between;
 
-   /*border: 1px solid green;*/
+  /*border: 1px solid green;*/
 }
 .characters {
   display: flex;
@@ -173,10 +172,10 @@
   font-weight: 400;
   color: #ffffff80;
   height: 44px;
-  padding: auto ;
+  padding: auto;
   text-align: left;
 
- /* border:  1px solid brown;*/
+  /* border:  1px solid brown;*/
 }
 .hero .number {
   box-sizing: border-box;
@@ -188,10 +187,8 @@
   margin: 0;
   padding: 0;
   text-align: left;
- 
- 
 
-   /*border: 1px solid pink;*/
+  /*border: 1px solid pink;*/
 }
 
 .hero-img {
@@ -211,16 +208,6 @@
   /* border: green 1px solid;*/
 }
 
-
-
-
-
-
-
-
-
-
-
 /* min width 768 px   tablet mod */
 
 @media (min-width: 768px) {
@@ -239,6 +226,11 @@
     max-width: 1093px;
     font-size: 60px;
     margin-left: 32px;
+  }
+
+  .hero .highlight{
+    font-size: 60px;
+
   }
 
   .description {
@@ -304,33 +296,32 @@
     height: 454px;
   }
 
-  .review{
+
+
+  .review {
     width: 119px;
-    
+
     justify-content: space-between;
 
-   /* border: 1px solid rosybrown;*/
-
+    /* border: 1px solid rosybrown;*/
   }
   .reviews {
     display: flex;
     flex-direction: column;
-   
+
     /* border: 1px solid brown;*/
   }
   .icon-border {
-  width: 44px;
-  height: 44px;
-  background-color: #bea69e;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: #bea69e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  border: 1px solid rebeccapurple;
-}
-
-
+    /*border: 1px solid rebeccapurple;*/
+  }
 }
 
 /* min width 1280 px   desktop mod */
