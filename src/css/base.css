@@ -22,12 +22,21 @@ body {
   background-color: black;
   gap: 20px;
 }
+h2 {
+  color: #ffff;
+  font-size: 28px;
+  resize: auto;
+}
 
 main {
   flex-grow: 1;
 }
 main:has(.back-link) {
   text-align: center;
+}
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .background {
@@ -48,6 +57,9 @@ main:has(.back-link) {
 @media screen and (min-width: 768px) {
   body {
     gap: 100px;
+  }
+  h2 {
+    font-size: 48px;
   }
 }
 

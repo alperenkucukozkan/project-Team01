@@ -9,7 +9,10 @@
   box-sizing: border-box;
   position: relative;
   padding-left: 20px;
+  padding-right: 62px;
   margin-bottom: 100px;
+  margin:0 auto;
+  
 
   /* border: 1px solid red;*/
 }
@@ -53,14 +56,16 @@
   /*  border: 1px solid purple;*/
 }
 .happy-students {
-  width: 273px;
+  max-width: 777px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: left;
   height: 84px;
   position: relative;
+  justify-content: space-between;
 
-  /* border: 1px solid green;*/
+   /*border: 1px solid green;*/
 }
 .characters {
   display: flex;
@@ -129,6 +134,7 @@
   font-weight: 400;
   font-size: 16px;
   text-align: left;
+  padding-top: 4px;
 
   /*  border: 1px solid yellow;*/
 }
@@ -137,7 +143,7 @@
   width: 44px;
   height: 44px;
   background-color: #bea69e;
-  border-radius: 100px;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,7 +152,7 @@
 .icon {
   width: 20px;
   height: 20px;
-  margin: 12px 0 12px 0;
+  margin: 12px;
 
   /* border: 1px solid white;*/
 }
@@ -156,29 +162,36 @@
   height: 44px;
   display: flex;
   gap: 12px;
-  margin-left: 40px;
-
-  display: flex;
+  /*margin-left: 40px;*/
   position: absolute;
   right: 0;
 
-  /* border: 1px solid white;*/
+  /*border: 1px solid white;*/
 }
 .reviews {
   font-size: 14px;
   font-weight: 400;
   color: #ffffff80;
+  height: 44px;
+  padding: auto ;
+  text-align: left;
 
-  /* border:  1px solid brown;*/
+ /* border:  1px solid brown;*/
 }
-.number {
-  display: block;
+.hero .number {
+  box-sizing: border-box;
   font-size: 16px;
   font-weight: 500;
   color: #fff;
   width: 50px;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+ 
+ 
 
-  /*  border: 1px solid pink;*/
+   /*border: 1px solid pink;*/
 }
 
 .hero-img {
@@ -197,6 +210,16 @@
 
   /* border: green 1px solid;*/
 }
+
+
+
+
+
+
+
+
+
+
 
 /* min width 768 px   tablet mod */
 
@@ -233,7 +256,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    max-width: 390px;
+    max-width: 1280px;
     height: 54px;
 
     margin-left: 32px;
@@ -280,6 +303,34 @@
     width: 390px;
     height: 454px;
   }
+
+  .review{
+    width: 119px;
+    
+    justify-content: space-between;
+
+   /* border: 1px solid rosybrown;*/
+
+  }
+  .reviews {
+    display: flex;
+    flex-direction: column;
+   
+    /* border: 1px solid brown;*/
+  }
+  .icon-border {
+  width: 44px;
+  height: 44px;
+  background-color: #bea69e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rebeccapurple;
+}
+
+
 }
 
 /* min width 1280 px   desktop mod */
