@@ -11,7 +11,7 @@
   padding-left: 20px;
   margin-bottom: 100px;
 
- /* border: 1px solid red;*/
+  /* border: 1px solid red;*/
 }
 
 .hero h1 {
@@ -282,12 +282,6 @@
   }
 }
 
-
-
-
-
-
-
 /* min width 1280 px   desktop mod */
 
 @media (min-width: 1280px) {
@@ -353,5 +347,4 @@
 
     /* border: 1px solid white;*/
   }
-
 }
