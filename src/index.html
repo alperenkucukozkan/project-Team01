@@ -14,12 +14,13 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <main>
-      <!-- Loads the specified .html file -->
-      <div class="background">
+    <div class="background-top">
+      <header>
         <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
-        <load src="./partials/hero.html" />
-      </div>
+      </header>
+      <load src="./partials/hero.html" />
+    </div>
+    <main>
       <load src="./partials/advertisement.html" />
       <load src="./partials/about-us.html" />
       <load src="./partials/ourcourses.html" />
@@ -27,10 +28,9 @@
       <load src="./partials/sign-up.html" />
       <load src="./partials/review.html" />
     </main>
-
-    <div class="background-footer">
+    <footer class="background">
       <load src="./partials/footer.html" />
-    </div>
+    </footer>
     <script type="module" src="./main.js"></script>
   </body>
 </html>

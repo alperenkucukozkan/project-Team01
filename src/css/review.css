@@ -6,7 +6,7 @@
   text-align: left;
   overflow: hidden;
   margin-top: 80px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding-bottom: 30px;
 }
 
@@ -14,7 +14,6 @@
   font-size: 28px;
   font-weight: 500;
   color: #fff;
-  
 }
 
 .reviews-scroll {
@@ -24,11 +23,11 @@
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   padding-bottom: 12px;
-  scrollbar-width: none;       
+  scrollbar-width: none;
 }
 
 .reviews-scroll::-webkit-scrollbar {
-  display: none;                
+  display: none;
 }
 
 .review-card {
@@ -90,7 +89,7 @@
   display: flex;
   gap: 4px;
 }
- .star-icon {
+.star-icon {
   width: 20px;
   height: 20px;
   color: #bea69e;
@@ -98,8 +97,6 @@
 .star-icon.dimmed {
   color: #444;
 }
-
-
 
 .review-card p {
   font-size: 12px;
@@ -114,7 +111,8 @@
   #reviews {
     width: 100%;
     height: 310px;
-    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 58px;
   }
   .review-header {
     flex-direction: row;
@@ -127,7 +125,7 @@
   }
 
   .review-card {
-    flex: 0 0 90%; 
+    flex: 0 0 90%;
   }
 }
 
@@ -136,6 +134,8 @@
   #reviews {
     width: 100%;
     height: 310px;
+    margin-top: 150px;
+    margin-bottom: 78px;
   }
 
   .section-reviews-title {

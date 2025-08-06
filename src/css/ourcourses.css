@@ -97,12 +97,13 @@
   align-items: center;
   justify-content: center;
 
-  text-decoration: none; 
-  color: inherit; 
-  outline: none; 
+  text-decoration: none;
+  color: inherit;
+  outline: none;
 }
 
-.button-arrow:hover, .button-arrow:focus {
+.button-arrow:hover,
+.button-arrow:focus {
   background-color: rgba(190, 166, 158, 1);
 }
 

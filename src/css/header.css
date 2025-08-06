@@ -86,15 +86,18 @@
 }
 .close-btn {
   display: flex;
-  background: none;
-  border: none;
-  position: absolute;
-  top: 24px;
-  right: 16px;
+  justify-content: flex-end;
+  stroke: black;
+  margin-right: 20px;
+  margin-top: 20px;
   cursor: pointer;
   z-index: 9999;
 }
 
+.close-btn:hover .close-btn:focus {
+  stroke: white;
+  transition: stroke 0.3s ease;
+}
 .mobile-menu ul {
   list-style: none;
   padding-left: 20px;
