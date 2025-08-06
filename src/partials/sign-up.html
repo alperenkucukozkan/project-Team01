@@ -1,44 +1,51 @@
-<div class="container">
-  <div class="sign-up">
-    <div>
-      <h2>Sign <span class="color-word">Up</span></h2>
-      <p class="pragraph">
-        Please use the form below to contact us. Enter your name, email, and
-        message and we'll get back to you shortly.
-      </p>
+<section id="sign-up">
+  <div class="container">
+    <div class="sign-up">
+      <div>
+        <h2>Sign <span class="color-word">Up</span></h2>
+        <p class="pragraph">
+          Please use the form below to contact us. Enter your name, email, and
+          message and we'll get back to you shortly.
+        </p>
 
-      <form class="form">
-        <label class="form-label"
-          ><input type="text" class="form-input" placeholder="Enter Your Name"
-        /></label>
-        <label class="form-label"
-          ><input
-            type="email"
-            class="form-input"
-            placeholder="Enter Your Email"
-        /></label>
-        <label class="form-label">
-          <textarea
-            name=""
-            id=""
-            class="textarea"
-            placeholder="Message"
-          ></textarea>
-        </label>
-      </form>
-      <input type="button" value="SEND" class="send-btn" />
-      <p class="info">
-        By clicking on “Send” button, you agree to our Privacy Policy, and allow
-        Promodo to use this information for marketing purposes.
-      </p>
-    </div>
-    <div class="img-container">
-      <a>
-        <img src="../img/lens.png" alt="camera lens" class="lens" />
-      </a>
-      <a>
-        <img src="../img/s-camera.png" alt="photo camera" class="camera" />
-      </a>
+        <form class="form">
+          <label class="form-label"
+            ><input
+              type="text"
+              class="form-input"
+              placeholder="Enter Your Name"
+              required
+          /></label>
+          <label class="form-label"
+            ><input
+              type="email"
+              class="form-input"
+              placeholder="Enter Your Email"
+              required
+          /></label>
+          <label class="form-label">
+            <textarea
+              class="textarea"
+              placeholder="Message"
+              rows="5"
+              required
+            ></textarea>
+          </label>
+        </form>
+        <input type="submit" value="SEND" class="send-btn" />
+        <p class="info">
+          By clicking on "Send" button, you agree to our Privacy Policy, and
+          allow Promodo to use this information for marketing purposes.
+        </p>
+      </div>
+      <div class="img-container">
+        <div class="lens-container">
+          <img src="../img/lens.png" alt="camera lens" class="lens" />
+        </div>
+        <div class="camera-container">
+          <img src="../img/s-camera.png" alt="photo camera" class="camera" />
+        </div>
+      </div>
     </div>
   </div>
-</div>
+</section>

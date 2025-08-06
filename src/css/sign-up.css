@@ -29,6 +29,7 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
   background: transparent;
+  color: #ffff;
 }
 
 .textarea {
@@ -37,6 +38,7 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
   background: transparent;
+  color: #ffff;
 }
 .info {
   color: rgba(255, 255, 255, 0.5);
@@ -60,26 +62,42 @@ p {
   text-transform: uppercase;
   cursor: pointer;
 }
-.lens {
+.send-btn:hover {
+  background-color: #1d1d1d;
+  color: #bea69e;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* .lens-container {
   width: 180px;
   height: 288px;
   border-radius: 1000px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: #bea69e;
   align-items: center;
   justify-content: center;
-  object-fit: cover;
+  overflow: hidden;
 }
 
-.camera {
+.camera-container {
   width: 340px;
   height: 538px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 1000px;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+  height: auto;
   object-fit: cover;
+  border-radius: 0;
+  display: block;
+  position: relative;
+  margin: 0 auto;
 }
 .img-container {
   display: none;
-}
+} */
 
 @media screen and (min-width: 1280px) {
   .img-container {
@@ -89,12 +107,12 @@ p {
     width: 540px;
     height: 540px;
   }
-  .lens {
+  .lens-container {
     position: absolute;
     bottom: 0;
     left: 0;
   }
-  .camera {
+  .camera-container {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -102,5 +120,46 @@ p {
   .sign-up {
     display: flex;
     justify-content: space-between;
+  }
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    flex-wrap: wrap;
+  }
+
+  .lens-container,
+  .camera-container {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1000px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lens-container {
+    width: 180px;
+    height: 288px;
+    background-color: #bea69e;
+  }
+
+  .camera-container {
+    width: 340px;
+    height: 538px;
+    background-color: #1d1d1d;
+  }
+
+  img {
+    object-fit: cover;
+    display: block;
+  }
+  .lens {
+    transform: translateY(7px);
+  }
+  .camera {
+    transform: translateY(34px);
   }
 }

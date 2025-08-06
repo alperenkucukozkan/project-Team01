@@ -96,9 +96,10 @@
   justify-content: center;
 }
 
-.icon-arrow {
+.icon-arrow-1 {
   width: 20px;
   height: 20px;
+  fill: rgba(255, 255, 255, 0.4);
 }
 
 .title-photography {
