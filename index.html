@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/assets/favicon-B3g2-b8i.svg" />
+    <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Focus Frame</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-dqDc6Nbk.css">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-B0Znt50e.css">
   </head>
   <body>
     <main>
@@ -26,7 +26,7 @@
           <use xlink:href="../img/sprite.svg#icon-logo"></use>
         </svg>
       </a>
-      <a href="" class="camera-icon">
+      <a href="#sign-up" class="camera-icon">
         <svg width:="16" height="16"> 
           <use xlink:href="../img/sprite.svg#icon-camera"></use>
         </svg> 
@@ -48,12 +48,13 @@
           <li><a href="#courses" class="link">OUR COURSES</a></li>
           <li><a href="#mentors" class="link">OUR MENTORS</a></li>
           <li><a href="#reviews" class="link">REVIEWS</a></li>
-          <li><a href="#contacts" class="link">CONTACTS</a></li>
+          <li><a href="#footer" class="link">CONTACTS</a></li>
         </ul>
         <a href="">
           <img src="../img/camera-img.jpg" alt="camera image" class="camera-img">
         </a>
       </nav>
+      <div class="overlay"></div>
 
       <nav class="desktop-menu">
         <ul class="page-nav">
@@ -61,11 +62,11 @@
           <li><a href="#courses" class="link">OUR COURSES</a></li>
           <li><a href="#mentors" class="link">OUR MENTORS</a></li>
           <li><a href="#reviews" class="link">REVIEWS</a></li>
-          <li><a href="#contacts" class="link">CONTACTS</a></li>
+          <li><a href="#footer" class="link">CONTACTS</a></li>
         </ul>
       </nav>
     </div>
-    <input class="button" type="button" value="Sign Up" />
+    <a href="#sign-up" class="button">SIGN UP</a>
   </div>
 </header>
 
@@ -111,13 +112,13 @@
           >Our happy students
         </a>
         <svg class="icon-arrow" width="16" height="16">
-          <use xlink:href="/vanilla-app-template/assets/sprite--afD5lo8.svg#icon-arrow-right"></use>
+          <use xlink:href="/vanilla-app-template/assets/sprite-BD1EAUJe.svg#icon-arrow-right"></use>
         </svg>
       </div>
       <div class="review">
         <label class="icon-border">
           <svg class="icon">
-            <use xlink:href="/vanilla-app-template/assets/sprite--afD5lo8.svg#icon-star"></use>
+            <use xlink:href="/vanilla-app-template/assets/sprite-BD1EAUJe.svg#icon-star"></use>
           </svg>
         </label>
 
@@ -200,7 +201,7 @@
         <p class="number">01</p>
         <button class="button-arrow" href="#">
           <svg class="icon-arrow-1">
-            <use href="/vanilla-app-template/assets/sprite--afD5lo8.svg#icon-arrow"></use>
+            <use href="/vanilla-app-template/assets/sprite-BD1EAUJe.svg#icon-arrow"></use>
           </svg>
         </button>
       </div>
@@ -215,7 +216,7 @@
         <p class="number">02</p>
         <button class="button-arrow" href="#">
           <svg class="icon-arrow-1">
-            <use href="/vanilla-app-template/assets/sprite--afD5lo8.svg#icon-arrow"></use>
+            <use href="/vanilla-app-template/assets/sprite-BD1EAUJe.svg#icon-arrow"></use>
           </svg>
         </button>
       </div>
@@ -230,7 +231,7 @@
         <p class="number">03</p>
         <button class="button-arrow" href="#">
           <svg class="icon-arrow-1">
-            <use href="/vanilla-app-template/assets/sprite--afD5lo8.svg#icon-arrow"></use>
+            <use href="/vanilla-app-template/assets/sprite-BD1EAUJe.svg#icon-arrow"></use>
           </svg>
         </button>
       </div>
@@ -280,50 +281,57 @@
   </section>
 </body>
 
-      <div class="container">
-  <div class="sign-up">
-    <div>
-      <h2>Sign <span class="color-word">Up</span></h2>
-      <p class="pragraph">
-        Please use the form below to contact us. Enter your name, email, and
-        message and we'll get back to you shortly.
-      </p>
+      <section id="sign-up">
+  <div class="container">
+    <div class="sign-up">
+      <div>
+        <h2>Sign <span class="color-word">Up</span></h2>
+        <p class="pragraph">
+          Please use the form below to contact us. Enter your name, email, and
+          message and we'll get back to you shortly.
+        </p>
 
-      <form class="form">
-        <label class="form-label"
-          ><input type="text" class="form-input" placeholder="Enter Your Name"
-        /></label>
-        <label class="form-label"
-          ><input
-            type="email"
-            class="form-input"
-            placeholder="Enter Your Email"
-        /></label>
-        <label class="form-label">
-          <textarea
-            name=""
-            id=""
-            class="textarea"
-            placeholder="Message"
-          ></textarea>
-        </label>
-      </form>
-      <input type="button" value="SEND" class="send-btn" />
-      <p class="info">
-        By clicking on “Send” button, you agree to our Privacy Policy, and allow
-        Promodo to use this information for marketing purposes.
-      </p>
-    </div>
-    <div class="img-container">
-      <a>
-        <img src="../img/lens.png" alt="camera lens" class="lens" />
-      </a>
-      <a>
-        <img src="../img/s-camera.png" alt="photo camera" class="camera" />
-      </a>
+        <form class="form">
+          <label class="form-label"
+            ><input
+              type="text"
+              class="form-input"
+              placeholder="Enter Your Name"
+              required
+          /></label>
+          <label class="form-label"
+            ><input
+              type="email"
+              class="form-input"
+              placeholder="Enter Your Email"
+              required
+          /></label>
+          <label class="form-label">
+            <textarea
+              class="textarea"
+              placeholder="Message"
+              rows="5"
+              required
+            ></textarea>
+          </label>
+        </form>
+        <input type="submit" value="SEND" class="send-btn" />
+        <p class="info">
+          By clicking on "Send" button, you agree to our Privacy Policy, and
+          allow Promodo to use this information for marketing purposes.
+        </p>
+      </div>
+      <div class="img-container">
+        <div class="lens-container">
+          <img src="../img/lens.png" alt="camera lens" class="lens" />
+        </div>
+        <div class="camera-container">
+          <img src="../img/s-camera.png" alt="photo camera" class="camera" />
+        </div>
+      </div>
     </div>
   </div>
-</div>
+</section>
 
       <!-- Reviews Section -->
 <section id="reviews">
@@ -464,7 +472,7 @@
       <div class="abouth">
         <div class="icon-logo">
           <svg class="icon">
-            <use xlink:href="/vanilla-app-template/assets/sprite--afD5lo8.svg#icon-logo"></use>
+            <use xlink:href="/vanilla-app-template/assets/sprite-BD1EAUJe.svg#icon-logo"></use>
           </svg>
         </div>
         <address class="address">
