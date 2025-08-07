@@ -3,6 +3,16 @@
   margin-bottom: 115px;
 }
 
+#about .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+}
+
 .section-title {
   font-size: 28px;
   font-weight: 500;
@@ -11,7 +21,6 @@
   color: #fff;
   margin: 0;
   z-index: 10;
-  padding: 0;
   text-align: left;
   display: flex;
   justify-content: flex-start;
@@ -80,7 +89,7 @@
 
 .about-paragraphs p {
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 18px;
   margin: 0;
   font-weight: 400;
   letter-spacing: -0.02em;
@@ -140,8 +149,8 @@
 
   .about-paragraphs p {
     flex: 1;
-    font-size: 14px;
-    line-height: 1.4;
+    font-size: 16px;
+    line-height: 20px;
     margin: 0;
   }
 }
