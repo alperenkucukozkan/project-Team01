@@ -1,4 +1,4 @@
-.footer{
+.footer {
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -8,8 +8,6 @@
   display: flex;
   margin-left: 0;
   padding-bottom: 8px;
-
-  /* border: #0d5229 solid 1px;*/
 }
 .footer .contact {
   font-size: 14px;
@@ -17,8 +15,6 @@
   max-width: 295px;
   width: 100%;
   height: 46px;
-
-  /*border: 1px solid #0d5229;*/
 }
 .footer .contact-item .link2 {
   font-size: 14px;
@@ -28,18 +24,11 @@
   color: #fff;
   display: flex;
   margin-bottom: 10px;
-
-  /*border: olive 1px solid;*/
 }
 
 .footer .more .link2 {
   margin-bottom: 14px;
   font-size: 14px;
-  
-  
-
- /* border: 1px saddlebrown solid;*/
-
 }
 
 .footer .more {
@@ -48,11 +37,9 @@
   font-size: 14px;
   color: #fff;
   height: 146px;
-
- /* border:  1px solid orange;*/
 }
 
-.footer .more .social-item{
+.footer .more .social-item {
   margin-bottom: 10px;
 }
 
@@ -100,8 +87,6 @@
 .footer .request-form {
   margin-top: 72px;
   min-width: 335px;
-
-  /* border: #0d5229 solid 1px;*/
 }
 
 @media (min-width: 768px) {
@@ -126,13 +111,11 @@
     gap: 25px;
   }
 
-   .footer .social-item{
+  .footer .social-item {
     padding-bottom: 14px;
-
-    /*border: 1px solid wheat;*/
   }
 
-  .footer .menu-item{
+  .footer .menu-item {
     padding-bottom: 14px;
   }
 
@@ -146,10 +129,6 @@
     min-width: 292px;
     width: 310px;
     margin-top: 0;
-    
-    
-
-    /* border: 1px solid orangered;*/
   }
 
   .footer .copyright {
@@ -163,11 +142,6 @@
 @media (min-width: 1280px) {
   .footer .request-form {
     width: 320px;
-    
-
-
-
-    /*border:  1px solid magenta;*/
   }
   .footer .request-input {
     width: 216px;
@@ -179,7 +153,6 @@
     margin-top: 15px;
   }
   .footer .more {
-   
     gap: 100px;
     margin-top: 15px;
   }
@@ -189,5 +162,4 @@
     padding-right: 100px;
     padding-left: 80px;
   }
-
 }
