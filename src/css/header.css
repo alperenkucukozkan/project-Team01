@@ -45,7 +45,7 @@
   top: 0;
   right: 0;
   width: 218px;
-  height: 100vh;
+  height: 812px;
   background-color: #bea69e;
   background-size: contain;
   overflow-y: auto;
@@ -75,7 +75,7 @@
   height: auto;
   position: fixed;
   object-fit: cover;
-  padding-top: 133px;
+  bottom: 0;
 }
 
 .menu-icon-label {
@@ -139,6 +139,7 @@
   .mobile-menu {
     display: flex;
     width: 480px;
+    height: 1024px;
   }
   .mobile-menu ul {
     padding-top: 232px;

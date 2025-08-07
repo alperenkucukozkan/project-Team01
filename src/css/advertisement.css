@@ -12,6 +12,7 @@
 }
 
 .marquee__line {
+  display: flex;
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   line-height: 32px;
@@ -26,8 +27,9 @@
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+  justify-content: center;
 }
-.highlight {
+.color-text {
   color: #ffffff;
 }
 .normal-text {
