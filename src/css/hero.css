@@ -215,6 +215,7 @@
     height: 100%;
     height: 900px;
     max-width: 1280px;
+    margin-top: 40px;
     /*border: 1px solid red;*/
   }
 
@@ -325,6 +326,7 @@
     width: 100%;
     height: 100%;
     height: 600px;
+    margin-top: 80px;
 
     /*  border: 1px solid red;*/
   }
