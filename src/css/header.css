@@ -101,8 +101,23 @@
 .mobile-menu ul {
   list-style: none;
   padding-left: 20px;
-  padding-top: 180px;
+  padding-top: 128px;
   margin: 0;
+}
+.page-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.nav-link {
+  color: #121212;
+  text-decoration: none;
+  line-height: 28px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.nav-link:hover {
+  font-weight: bold;
 }
 
 .menu-toggle:checked ~ .mobile-menu {
@@ -142,7 +157,7 @@
     height: 1024px;
   }
   .mobile-menu ul {
-    padding-top: 232px;
+    padding-top: 172px;
     padding-left: 64px;
   }
   .mobil-menu .page-nav {
@@ -198,7 +213,15 @@
   }
   .page-nav {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 28px;
+  }
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    line-height: 14px;
+    font-weight: 400;
+    font-size: 14px;
   }
 }

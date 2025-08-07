@@ -30,6 +30,9 @@ p {
   border-radius: 12px;
   background: transparent;
   color: #ffff;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
 }
 
 .textarea {
@@ -43,6 +46,7 @@ p {
 .info {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
+  line-height: 16px;
   margin-top: 16px;
   max-width: 480px;
 }
@@ -58,7 +62,7 @@ p {
   border-radius: 12px;
   color: #000;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -71,7 +75,21 @@ p {
 .img-container {
   display: none;
 }
-
+@media screen and (min-width: 768px) {
+  .pragraph {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+  }
+  .form-input {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .send-btn {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
 @media screen and (min-width: 1280px) {
   .img-container {
     position: relative;

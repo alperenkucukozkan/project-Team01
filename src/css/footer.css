@@ -4,7 +4,7 @@
   display: flex;
   margin-left: 0;
 
- /* border: #0d5229 solid 1px;*/
+  /* border: #0d5229 solid 1px;*/
 }
 .footer .contact {
   font-size: 14px;
@@ -12,8 +12,6 @@
   max-width: 287px;
   width: 100%;
   height: 46px;
-
-  /*border: 1px solid #0d5229;*/
 }
 .footer .contact-item .link {
   font-size: 14px;
@@ -61,7 +59,7 @@
   padding-bottom: 20px;
 }
 
-.footer .request-form{
+.footer .request-form {
   margin-top: 72px;
 }
 
@@ -71,34 +69,27 @@
     gap: 48px;
     justify-content: space-between;
     margin-top: 50px;
-
-    /* border: 1px solid olivedrab;*/
   }
-
-
 
   .footer .address {
     max-width: 152px;
     width: 100%;
   }
 
-  .footer .contact-item{
+  .footer .contact-item {
     margin-bottom: 10px;
   }
 
   .footer .more {
     margin-top: 0;
     gap: 25px;
-   
   }
 
-   .footer .social-item{
+  .footer .social-item {
     padding-bottom: 14px;
-
-    /*border: 1px solid wheat;*/
   }
 
-  .footer .menu-item{
+  .footer .menu-item {
     padding-bottom: 14px;
   }
 
@@ -111,10 +102,6 @@
     gap: 8px;
     width: 266px;
     margin-top: 0;
-    
-    
-
-    /* border: 1px solid orangered;*/
   }
 
   .footer .copyright {
@@ -122,19 +109,12 @@
     padding-right: 32px;
     padding-left: 12px;
     margin-top: 74px;
-    
   }
 }
 
 @media (min-width: 1280px) {
-
-  .footer .request-form{
+  .footer .request-form {
     width: 320px;
-    
-
-
-
-    /*border:  1px solid magenta;*/
   }
   .footer .request-input {
     width: 216px;
@@ -142,15 +122,12 @@
     margin-right: 8px;
   }
   .footer .more {
-   
     gap: 100px;
   }
 
- 
-  .footer .copyright{
+  .footer .copyright {
     justify-content: space-between;
     padding-right: 100px;
     padding-left: 80px;
   }
-
 }
