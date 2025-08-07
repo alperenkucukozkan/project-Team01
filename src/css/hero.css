@@ -51,6 +51,7 @@
   width: 100%;
   margin-bottom: 0;
   margin-bottom: 35px;
+  letter-spacing: -2%;
 
   /*  border: 1px solid purple;*/
 }
@@ -61,8 +62,6 @@
   flex-direction: column;
   align-items: left;
   height: 84px;
-  position: relative;
-  justify-content: space-between;
 
   /*border: 1px solid green;*/
 }
@@ -109,10 +108,11 @@
   width: 89px;
   height: 36px;
   display: flex;
+  position: relative;
   flex-direction: column;
   line-height: 18px;
 
-  /*border:1px solid chartreuse;*/
+  /*border: 1px solid chartreuse;*/
 }
 .icon-arrow {
   fill: #fff;
@@ -124,7 +124,7 @@
   margin-left: 91px;
   margin-top: 13.67px;
 
-  /*border: 1px solid blue;*/
+  /* border: 1px solid blue;*/
 }
 
 .link {
@@ -160,10 +160,9 @@
   width: 104px;
   height: 44px;
   display: flex;
-  gap: 12px;
-  /*margin-left: 40px;*/
   position: absolute;
-  right: 0;
+  gap: 12px;
+  margin-left: 189px;
 
   /*border: 1px solid white;*/
 }
@@ -175,7 +174,7 @@
   padding: auto;
   text-align: left;
 
-  /* border:  1px solid brown;*/
+  /*border: 1px solid brown;*/
 }
 .hero .number {
   box-sizing: border-box;
@@ -228,9 +227,8 @@
     margin-left: 32px;
   }
 
-  .hero .highlight{
+  .hero .highlight {
     font-size: 60px;
-
   }
 
   .description {
@@ -246,11 +244,9 @@
   .happy-students {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     width: 100%;
     max-width: 1280px;
     height: 54px;
-
     margin-left: 32px;
 
     /*border: 1px solid yellow;*/
@@ -275,8 +271,7 @@
     height: 100%;
     max-height: 56px;
     display: flex;
-    position: absolute;
-    left: 149px;
+    left: 12px;
 
     /* border: 1px solid blue;*/
   }
@@ -296,11 +291,9 @@
     height: 454px;
   }
 
-
-
   .review {
     width: 119px;
-
+    left: 134px;
     justify-content: space-between;
 
     /* border: 1px solid rosybrown;*/
@@ -363,11 +356,17 @@
     max-width: 388px;
     height: 56px;
     margin-left: 50px;
-
-    position: absolute;
     bottom: 50px;
 
     /* border: 1px solid yellow;*/
+  }
+
+  .students {
+    left: -25px;
+  }
+
+  .review {
+    left: 150px;
   }
 
   .hero-img {
