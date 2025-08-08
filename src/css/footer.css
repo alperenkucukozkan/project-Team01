@@ -55,13 +55,17 @@
   width: 267px;
   height: 60px;
   padding: 0 10px;
-  border: 1px solid #ccc;
   border-radius: 12px;
   background-color: #fff;
   font-size: 16px;
   margin-left: 0px;
   margin-right: 8px;
+  border: none;
 }
+.footer .request-input::placeholder {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
 
 .footer .request-button {
   width: 60px;
