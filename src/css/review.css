@@ -16,11 +16,9 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  max-width: 1080px;
+  max-width: 1280px;
   height: 100%;
   margin: 0 auto;
-  margin-left: auto;
-  margin-right: auto;
 } 
 
 .section-reviews-title {
@@ -140,7 +138,7 @@
 }
 
 /* ---------- DESKTOP STYLES ---------- */
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   #reviews {
     width: 100%;
     height: 310px;
