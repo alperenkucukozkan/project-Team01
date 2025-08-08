@@ -8,6 +8,7 @@
   margin-top: 80px;
   margin-bottom: 50px;
   padding-bottom: 30px;
+  padding: 15px;
 }
 
 #reviews .container {
@@ -15,15 +16,17 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  max-width: 1240px;
+  max-width: 1080px;
   height: 100%;
   margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 } 
 
 .section-reviews-title {
   font-size: 28px;
   font-weight: 500;
-  color: #fff;
+  color:#ffffff
 }
 
 .reviews-scroll {
@@ -43,8 +46,8 @@
 .review-card {
   flex: 0 0 85%;
   scroll-snap-align: start;
-  border: 1px solid #aaa;
-  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
   padding: 25px;
   background-color: #000;
   display: flex;
@@ -166,10 +169,5 @@
   .review-stars {
     order: 2;
     margin-left: auto;
-  }
-
-  .star-icon {
-    width: 16px;
-    height: 16px;
   }
 }
